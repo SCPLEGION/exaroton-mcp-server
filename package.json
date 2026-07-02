@@ -1,0 +1,32 @@
+{
+  "name": "exaroton-mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for the exaroton Minecraft server hosting API",
+  "type": "module",
+  "bin": {
+    "exaroton-mcp-server": "src/index.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "test": "node --env-file=.env test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "exaroton",
+    "minecraft",
+    "aternos"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "dotenv": "^17.4.2",
+    "exaroton": "^2.0.2",
+    "p-limit": "^7.3.0",
+    "zod": "^3.24.0"
+  }
+}
