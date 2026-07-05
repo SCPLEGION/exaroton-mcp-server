@@ -1,4 +1,4 @@
-# by Claude for Claude
+## by Claude for Claude
 
 # exaroton MCP server
 
