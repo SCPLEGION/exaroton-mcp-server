@@ -1,3 +1,5 @@
+# by Claude for Claude
+
 # exaroton MCP server
 
 A [Model Context Protocol](https://modelcontextprotocol.io) server that exposes the
